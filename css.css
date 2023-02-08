@@ -1,0 +1,102 @@
+div{
+    display: flex;
+}
+.header{
+    background-color: blue;
+    flex-direction: row;
+}
+.icon{
+    flex-direction: row;
+    width:33%;
+    justify-content: flex-start;
+    align-content: center;
+}
+.icon_Page{
+    background-color: red;
+    width:33%;
+    justify-content: space-evenly;
+    height: 100%;
+    align-content: center;
+}
+.profile{
+    justify-content: flex-end;
+    width:33%;
+    align-content: center;
+}
+.search{
+    float: left;
+    align-content: center;
+}
+.body{
+    flex-direction: row;
+}
+.gauche{
+    flex-direction: column;
+    width:25%;
+    height: 100%;
+}
+.nav{
+    flex-direction: column;
+    background-color: yellow;
+    height: 60%;
+}
+.jeux{
+    flex-direction: column;
+    background-color: brown;
+    height: 30%;
+}
+.footer{
+    background-color: black;
+    height: 10%;
+}
+.actu{
+    width:50%;
+    align-items: center;
+    background-color: gray;
+    flex-direction: column;
+}
+.section1{
+    width: 60%;
+    background-color: beige;
+    flex-direction: column;
+}
+.publi{
+    flex-direction:s row ;
+    justify-content: space-evenly;
+}
+.publi2{
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.section2{
+    width: 60%;
+    background-color: beige;
+    flex-direction: column;
+}
+.article{
+    width: 60%;
+    background-color: beige;
+    flex-direction: column;
+}
+
+.droite{
+    width:25%;
+    background-color: blueviolet;
+    flex-direction: column;
+}
+.sponso{
+    flex-direction: column;
+}
+.persone{
+    flex-direction: column;
+}
+.align{
+
+}
+.icone_artcile{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.texte_img{
+    flex-direction: column;
+}
