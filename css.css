@@ -2,13 +2,17 @@ div{
     display: flex;
 }
 .header{
-    background-color: blue;
+    background-color: white;
     flex-direction: row;
 }
 .icon{
     flex-direction: row;
     width:33%;
     justify-content: flex-start;
+    align-content: center;
+}
+.search{
+    margin: 7px;
     align-content: center;
 }
 .icon_Page{
@@ -22,20 +26,17 @@ div{
     width:33%;
     align-content: center;
 }
-.search{
-    float: left;
-    align-content: center;
-}
 .body{
     flex-direction: row;
-    background-color: grey;
-    width: 200vh;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
     height: 100vh;
 }
 .gauche{
     flex-direction: column;
     width:25%;
     height: 100vh;
+    justify-content: space-between;
 }
 .nav{
     flex-direction: column;
@@ -57,6 +58,7 @@ div{
     flex-direction: column;
     background-color: white;
     margin: 10px;
+    border-radius: 10px;
 }
 .publi{
     flex-direction:s row ;
@@ -72,6 +74,7 @@ div{
     flex-direction: column;
     background-color: white;
     margin: 10px;
+    border-radius: 10px;
 }
 .navigation{
     flex-direction: row;
@@ -81,6 +84,7 @@ div{
     flex-direction: column;
     background-color: white;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .droite{
@@ -96,6 +100,7 @@ div{
 .icone_article{
     flex-direction: row;
     justify-content: flex-end;
+    margin: 5px;
 }
 .texte_img{
     flex-direction: column;
@@ -107,4 +112,109 @@ div{
     background-color: black;
     width: 100%;
     height: 2px;
+}
+.footer{
+    justify-content: flex-end;
+}
+.prepa{
+    flex-direction: column;
+}
+.align{
+    margin: 10px;
+    align-items: center;
+}
+.align1{
+    margin: 10px;
+}
+.barre{
+    height: 40px;
+}
+@media (max-width:1000px){
+    .icon_Page{
+        display: none;
+    }
+    .body{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .droite{
+        width: 25%;
+    }
+    .gauche{
+        width: 5%;
+        height: 0%;
+    }
+    .actu{
+        width: 70%;
+        align-items: flex-start;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .section1{
+        width: 90%;
+    }
+    .scetion2{
+        width: 90%;
+    }
+    .article{
+        width: 90%;
+    }
+    .nav{
+        display: none;
+    }
+    .jeux{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+}
+@media (max-width:750px){
+    .icon_Page{
+        display: none;
+    }
+    .body{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .droite{
+        width: 5%;
+        height: 0%;
+    }
+    .gauche{
+        width: 5%;
+        height: 0%;
+    }
+    .actu{
+        width: 90%;
+        align-items: flex-start;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .section1{
+        width: 100%;
+    }
+    .scetion2{
+        width: 100%;
+    }
+    .article{
+        width: 100%;
+    }
+    .nav{
+        display: none;
+    }
+    .jeux{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .sponso{
+        display: none;
+    }
+    .persone{
+        display: none;
+    }
 }
